@@ -24,20 +24,20 @@ var SHAR0489 = {
     boxClick: function () {
         this.style.borderColor = "blue";
         this.style.backgroundColor = "aqua";
-        console.log(this);
+//        console.log(this);
     },
 
     mouseOver: function (e) {
         e.target.classList.toggle("highlight");
-        console.log(e);
-        console.log(e.target);
+//        console.log(e);
+//        console.log(e.target);
     },
 
     mouseOut: function (e) {
         e.target.classList.toggle("highlight");
         e.target.removeAttribute('style'); // remove any style added by the click event
-        console.log(e);
-        console.log(e.target);
+//        console.log(e);
+//        console.log(e.target);
     },
 
     init: function () {
@@ -57,4 +57,4 @@ var SHAR0489 = {
 
 }
 
-SHAR0489.init;
+//SHAR0489.init;
