@@ -25,20 +25,22 @@ var SHAR0489 = {
         let target = e.currentTarget;
         target.style.borderColor = "blue";
         target.style.backgroundColor = "aqua";
-//        console.log(this);
+        //        console.log(this);
     },
 
     mouseOver: function (e) {
-        e.target.classList.toggle("highlight");
-//        console.log(e);
-//        console.log(e.target);
+        let target = e.currentTarget;
+        target.target.classList.toggle("highlight");
+        //        console.log(e);
+        //        console.log(e.target);
     },
 
     mouseOut: function (e) {
-        e.target.classList.toggle("highlight");
-        e.target.removeAttribute('style'); // remove any style added by the click event
-//        console.log(e);
-//        console.log(e.target);
+        let target = e.currentTarget;
+        target.target.classList.toggle("highlight");
+        target.target.removeAttribute('style'); // remove any style added by the click event
+        //        console.log(e);
+        //        console.log(e.target);
     },
 
     init: function () {
