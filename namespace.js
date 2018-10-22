@@ -60,4 +60,4 @@ var SHAR0489 = {
 
 }
 
-//SHAR0489.init;
+SHAR0489.init;
