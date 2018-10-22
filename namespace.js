@@ -21,9 +21,10 @@
 
 
 var SHAR0489 = {
-    boxClick: function () {
-        this.style.borderColor = "blue";
-        this.style.backgroundColor = "aqua";
+    boxClick: function (e) {
+        let target = e.currentTarget;
+        target.style.borderColor = "blue";
+        target.style.backgroundColor = "aqua";
 //        console.log(this);
     },
 
