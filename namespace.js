@@ -22,25 +22,23 @@
 
 var SHAR0489 = {
     boxClick: function () {
-//        let target = e.currentTarget;
-        this.style.borderColor = "black";
-        this.style.backgroundColor = "red";
-//        console.log(target);
+        SHAR0489.style.borderColor = "black";
+        SHAR0489.style.backgroundColor = "red";
+        console.log(SHAR0489);
     },
 
     mouseOver: function (e) {
-//        let target = e.currentTarget;
         e.target.classList.toggle("highlight");
         console.log(e);
-//        console.log(e.target);
+        console.log(e.target);
     },
 
     mouseOut: function (e) {
-//        let target = e.currentTarget;
         e.target.classList.toggle("highlight");
         e.target.removeAttribute('style'); // remove any style added by the click event
         console.log(e);
-//        console.log(target.target);
+        console.log(e);
+        console.log(e.target);
     },
 
     init: function () {
