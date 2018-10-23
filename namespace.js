@@ -53,9 +53,9 @@ var SHAR0489 = {
 
         // add some event listeners:
 
-        newBoxSection.addEventListener("click", this.boxClick);
-        newBoxSection.addEventListener("mouseover", this.mouseOver);
-        newBoxSection.addEventListener("mouseout", this.mouseOut);
+        newBoxSection.addEventListener("click", SHAR0489.boxClick);
+        newBoxSection.addEventListener("mouseover", SHAR0489.mouseOver);
+        newBoxSection.addEventListener("mouseout", SHAR0489.mouseOut);
     }
 
 }
