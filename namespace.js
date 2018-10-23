@@ -1,8 +1,8 @@
 var SHAR0489 = {
-    boxClick: function (e) {
-        e.style.borderColor = "blue";
-        e.style.backgroundColor = "aqua";
-        console.log(e);
+    boxClick: function () {
+        this.style.borderColor = "black";
+        this.style.backgroundColor = "red";
+        console.log(this);
     },
 
     mouseOver: function (e) {
