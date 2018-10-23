@@ -22,9 +22,9 @@
 
 var SHAR0489 = {
     boxClick: function () {
-        SHAR0489.style.borderColor = "black";
-        SHAR0489.style.backgroundColor = "red";
-        console.log(SHAR0489);
+        this.style.borderColor = "black";
+        this.style.backgroundColor = "red";
+        console.log(this);
     },
 
     mouseOver: function (e) {
