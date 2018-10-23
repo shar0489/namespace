@@ -23,8 +23,8 @@
 var SHAR0489 = {
     boxClick: function () {
 //        let target = e.currentTarget;
-        this.style.borderColor = "blue";
-        this.style.backgroundColor = "aqua";
+        this.style.borderColor = "black";
+        this.style.backgroundColor = "red";
 //        console.log(target);
     },
 
