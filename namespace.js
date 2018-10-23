@@ -1,30 +1,8 @@
-//    function circleClick() {
-//        this.style.borderColor = "blue";
-//        this.style.backgroundColor = "aqua";
-//        console.log(this);
-//    }
-//
-//    function mouseOver(e) {
-//        e.target.classList.toggle("highlight");
-//        console.log(e);
-//        console.log(e.target);
-//    }
-//
-//    function mouseOut(e) {
-//        e.target.classList.toggle("highlight");
-//        e.target.removeAttribute('style'); // remove any style added by the click event
-//        console.log(e);
-//        console.log(e.target);
-//    }
-//    document.addEventListener("DOMContentLoaded", init);
-
-
-
 var SHAR0489 = {
-    boxClick: function () {
-        this.style.borderColor = "black";
-        this.style.backgroundColor = "red";
-        console.log(this);
+    boxClick: function (e) {
+        e.style.borderColor = "blue";
+        e.style.backgroundColor = "aqua";
+        console.log(e);
     },
 
     mouseOver: function (e) {
