@@ -21,26 +21,26 @@
 
 
 var SHAR0489 = {
-    boxClick: function (e) {
-        let target = e.currentTarget;
-        target.style.borderColor = "blue";
-        target.style.backgroundColor = "aqua";
-        console.log(target);
+    boxClick: function () {
+//        let target = e.currentTarget;
+        this.style.borderColor = "blue";
+        this.style.backgroundColor = "aqua";
+//        console.log(target);
     },
 
     mouseOver: function (e) {
-        let target = e.currentTarget;
-        target.target.classList.toggle("highlight");
+//        let target = e.currentTarget;
+        e.target.classList.toggle("highlight");
         console.log(e);
-        console.log(e.target);
+//        console.log(e.target);
     },
 
     mouseOut: function (e) {
-        let target = e.currentTarget;
-        target.target.classList.toggle("highlight");
-        target.target.removeAttribute('style'); // remove any style added by the click event
-        console.log(target);
-        console.log(target.target);
+//        let target = e.currentTarget;
+        e.target.classList.toggle("highlight");
+        e.target.removeAttribute('style'); // remove any style added by the click event
+        console.log(e);
+//        console.log(target.target);
     },
 
     init: function () {
